@@ -13,7 +13,7 @@ public class DiceGame {
         //creating instances of the default dice 
         Die dice1 = new Die();
         //creating instances of the dice with one argument
-        Die dice2 = new Die(20);
+        Die dice2 = new Die(30);
         //creating instances of the dice with 2 argument 
         Die dice3 = new Die(12 , "Skippy");
 
