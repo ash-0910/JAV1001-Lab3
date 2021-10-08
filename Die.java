@@ -40,24 +40,17 @@ public class Die{
     public void diceRamdomGenerator(){
         Random r = new Random();
 
-        currentSideUp = r.nextInt(numberOfSides)+1;// 
+        currentSideUp = r.nextInt(numberOfSides)+1; 
     }
 
     public String getType(){
         return type;
     }
 
-    // public void setType(String newType){
-    //     this.type = newType;
-    // }
 
     public int  getNumOfSides(){
         return numberOfSides;
     }
-
-    // public void setNumOFSides(int newNOS){
-    //     this.numberOfSides = newNOS;
-    // }
 
     public int getCurrentSideUp(){
         return currentSideUp;
