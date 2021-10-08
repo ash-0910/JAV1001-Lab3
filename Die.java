@@ -1,3 +1,11 @@
+/*
+
+Ashish Surti
+Student ID - A00244471
+Program - MAPD - JAV1001, Lab - 01
+
+*/
+
 import java.util.Random;
 
 public class Die{
@@ -32,7 +40,7 @@ public class Die{
     public void diceRamdomGenerator(){
         Random r = new Random();
 
-        currentSideUp = r.nextInt(numberOfSides)+1;
+        currentSideUp = r.nextInt(numberOfSides)+1;// 
     }
 
     public String getType(){

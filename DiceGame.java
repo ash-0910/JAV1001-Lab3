@@ -1,3 +1,12 @@
+/*
+
+Ashish Surti
+Student ID - A00244471
+Program - MAPD - JAV1001, Lab - 01
+
+*/
+
+
 public class DiceGame {
     public static void main(String[] args){
 
